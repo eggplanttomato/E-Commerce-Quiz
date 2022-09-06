@@ -1,0 +1,74 @@
+body{
+  background: url("images/moneyCat.jpg");
+  background-size: 200%;
+  background-position: 50% 5%;
+    background-repeat: no-repeat;
+}
+h1{color: white;}
+
+.quiz-container {
+  /* height: 550px; */
+  margin: 0 auto;
+  width: 85%;
+  padding: 20px 20px 50px 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: white;
+}
+
+h1 {
+  margin-left: 7%;
+}
+
+.answer {
+  background-color: #deba1f;
+  border: 1px solid white;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  }
+
+.answer:hover {
+  transform: scale(1.05);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.resultBox{
+  text-align: center;
+}
+
+img {
+  /* padding-left: 7%; */
+  height: auto;
+  width: 60%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.buttonStyle {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color: #74ad5a;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.buttonStyle:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color: #68a54b;
+}
+
+.buttonStyle:active {
+  position: relative;
+  top: 1px;
+}
