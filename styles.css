@@ -1,40 +1,57 @@
-body{
+body {
+  /* background-color: #4D77FF; */
   background: url("images/money.jpg");
   background-size: cover;
   /* background-position: 50% 5%; */
-    /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; */
+  font-size: 20px;
 }
-/* h1{color: white;} */
 
+/* h1{color: white;} */
 .quiz-container {
   /* height: 550px; */
   margin: 0 auto;
   width: 85%;
-  padding: 20px 20px 50px 20px;
-  border: 1px solid black;
+  padding: 0 20px 50px 20px;
+  border: 1px solid #354259;
   border-radius: 50px;
-  background-color: white;
+  background-color: #ECE5C7;
 }
 
 h1 {
   margin-left: 7%;
+  margin-bottom: 10px;
+  font-family: 'Bangers', cursive;
+  color: #354259;
+  font-size: 75px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 5px auto;
 }
 
 .answer {
-  background-color: #deba1f;
+  background-color: #EED180;
   border: 1px solid white;
-  margin: 0;
+  margin: 20px;
   padding: 10px;
   border-radius: 10px;
-  }
+  color: black;
+}
 
 .answer:hover {
   transform: scale(1.05);
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.resultBox{
+.resultBox {
   text-align: center;
 }
 
@@ -48,8 +65,8 @@ img {
 
 .buttonStyle {
   box-shadow: inset 0px 1px 0px 0px #9acc85;
-  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
-  background-color: #74ad5a;
+  background: linear-gradient(to bottom, #74ad5a 5%, #354259 100%);
+  background-color: #5EE6EB;
   border: 1px solid #3b6e22;
   display: inline-block;
   cursor: pointer;
@@ -61,11 +78,12 @@ img {
   text-decoration: none;
   border-radius: 10px;
   margin-top: 5px;
+  margin-left: 18px;
 }
 
 .buttonStyle:hover {
   background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
-  background-color: #68a54b;
+  background-color: #5EE6EB;
 }
 
 .buttonStyle:active {
