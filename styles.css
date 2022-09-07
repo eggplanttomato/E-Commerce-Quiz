@@ -1,22 +1,14 @@
 
-html{  font-size: 22px;
+html{  font-size: 28px;
   font-family: 'Roboto Condensed', sans-serif;}
 body {
-  /* background-color: #4D77FF; */
   background: url("images/money.jpg");
-  background-size: 100% 300%;
-
-  /* background-size: cover; */
-  /* background-position: 50% 5%; */
-  /* background-repeat: no-repeat; */
-
+  background-size: 100% 340%;
 }
-
-/* h1{color: white;} */
 .quiz-container {
   margin: 0 auto;
   width: 85%;
-  padding: 0 20px 50px 20px;
+  padding: 10px 20px 50px 20px;
   border: 1px solid #354259;
   border-radius: 50px;
   background-color: #ECE5C7;
@@ -78,13 +70,13 @@ img {
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 13px;
+  font-size: 25px;
   font-weight: bold;
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 10px;
   margin-top: 5px;
-  margin-left: 18px;
+  margin-left: 20px;
 }
 
 .buttonStyle:hover {

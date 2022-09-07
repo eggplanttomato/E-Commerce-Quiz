@@ -49,22 +49,24 @@ function showQuestion() {
   if (questionNumber === 0) {
     backButton.style.display = 'none';
     resetButton.style.display = 'none';
+    nextButton.style.display = 'inline-block';
   } else {
     backButton.style.display = 'inline-block';
   }
   if (questionNumber === myQuestions.length - 1) {
     nextButton.style.display = 'none';
     backButton.style.display = 'inline-block';
-    resetButton.style.display = 'inline-block';
-    } else {
-    nextButton.style.display = 'inline-block';
-
+    resetButton.style.display = 'none';
   }
+   else{
+    nextButton.style.display = 'inline-block';
+  }
+
   question.innerHTML = `<h3>Question ${questionNumber+1} of ${myQuestions.length}</h3> ${currentQuestion} `
 
   // for each available answer...
   for (const letter in currentAnswers) {
-    // ...add an HTML radio button
+    // add HTML radio buttons and answers
     answers.push(
       `<label>
         <div class="answer"> <input type="radio" id="${letter}" onclick="showResults('${letter}') "name="answer" value="${letter}">
@@ -106,6 +108,8 @@ let messages = (score == 2) ? "Get the Money!!" :
     results.innerHTML = `<h2>You got ${numCorrect} out of ${myQuestions.length}</h2>`;
     message.innerHTML = `<h2> ${messages}</h2>`;
     picture.innerHTML = "<img src=" + pic + ">";
+    backButton.style.display = 'none';
+    resetButton.style.display = 'inline-block';
   }
 }
 
@@ -132,4 +136,3 @@ showQuestion();
 backButton.addEventListener("click", back);
 nextButton.addEventListener("click", next);
 resetButton.addEventListener("click", reset);
-// tryAgain.innerHTML = "<button onClick='window.location.reload(true)'>Try Again</button>";
