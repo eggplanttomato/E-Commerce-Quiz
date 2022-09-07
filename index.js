@@ -56,12 +56,12 @@ function showQuestion() {
     nextButton.style.display = 'none';
     backButton.style.display = 'inline-block';
     resetButton.style.display = 'inline-block';
-  } else {
+    } else {
     nextButton.style.display = 'inline-block';
 
   }
   question.innerHTML = `<h3>Question ${questionNumber+1} of ${myQuestions.length}</h3> ${currentQuestion} `
-  console.log(currentQuestion);
+
   // for each available answer...
   for (const letter in currentAnswers) {
     // ...add an HTML radio button

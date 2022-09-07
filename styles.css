@@ -5,6 +5,7 @@ body {
   /* background-position: 50% 5%; */
   /* background-repeat: no-repeat; */
   font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* h1{color: white;} */
@@ -29,11 +30,13 @@ h1 {
 
 h2 {
   margin: 0 auto;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 h3 {
   font-size: 30px;
   margin: 5px auto;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .answer {
