@@ -1,16 +1,19 @@
+
+html{  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;}
 body {
   /* background-color: #4D77FF; */
   background: url("images/money.jpg");
-  background-size: cover;
+  background-size: 100% 300%;
+
+  /* background-size: cover; */
   /* background-position: 50% 5%; */
   /* background-repeat: no-repeat; */
-  font-size: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 /* h1{color: white;} */
 .quiz-container {
-  /* height: 550px; */
   margin: 0 auto;
   width: 85%;
   padding: 0 20px 50px 20px;
